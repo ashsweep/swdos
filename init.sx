@@ -1,0 +1,11 @@
+smmt -l;
+mount;
+fsadrv -i;
+kill;
+ns h1;
+mkfs -s;
+ex sweupdos;
+writefs;
+conf --persist 1;
+gf;
+readfs;
